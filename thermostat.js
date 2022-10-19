@@ -9,6 +9,13 @@ class Thermostat {
     return this.temp;
   }
 
+  tempUp () {
+    return this.temp++;
+  }
+
+  tempDown() {
+    return this.temp--;
+  }
 }
 
 module.exports = Thermostat;

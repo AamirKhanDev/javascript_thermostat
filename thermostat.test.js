@@ -21,3 +21,15 @@ it( 'Decreases temperature to 18 when turning it down', () => {
   thermo.tempDown()
   expect(thermo.tempDown()).toBe(18);
 });
+
+it( 'Maxes out temperature at 30', () => {
+  const thermo = new Thermostat()
+  Thermostat.max
+  expect(thermo.tempMax()).toBe(30);
+});
+
+it( 'Will not go lower than 15C', () => {
+  const thermo = new Thermostat()
+  Thermostat.min
+  expect(thermo.tempMin()).toBe(15);
+});

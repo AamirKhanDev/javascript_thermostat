@@ -1,0 +1,23 @@
+{
+  "name": "javascript_thermostat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoodieB/javascript_thermostat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoodieB/javascript_thermostat/issues"
+  },
+  "homepage": "https://github.com/HoodieB/javascript_thermostat#readme",
+  "dependencies": {
+    "jest": "^29.2.1"
+  }
+}
